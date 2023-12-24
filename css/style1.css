@@ -1,0 +1,406 @@
+/* home */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+* {
+    /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+    margin: 0;
+    padding: 0;
+
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.jumbotron{
+    font-size: 20px; 
+    padding: 50px;
+    background-color: #0E185F;
+    text-align: center;
+    color: white;
+ }
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+header{
+
+    display: inline;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    /* agar simbol di list yang bulat tidak muncul */
+    margin-right: 40px;
+}
+
+nav{
+    background-color: rgb(27, 40, 214); 
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    }
+
+.input-group .btn {
+    width: 85%;
+    padding: 3px 20px;
+    text-align: center;
+    border: none;
+    background: #F76E11;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.btn a{
+    color: #FFF;
+}
+
+.left-content .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #33ff8f;
+}
+
+.container{
+   
+    margin: 0 auto;
+}
+
+.left-content {
+    text-align: center;
+    line-height: 40px;
+    width: 10%;
+    height: 1920px;
+    background-color: rgb(27, 40, 214);
+    border-width: 2px;
+    border-style: solid;
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: left;
+}
+
+.left-content a{
+    text-decoration: none;
+}
+.left-content li:hover{
+    font-weight: bold;
+}
+
+.featured-image{
+    width: 55%;
+    max-height: 590px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 20px;
+}
+
+.left-content li{
+    list-style-type: none;
+}
+  
+li a{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+hr{
+    border: 1px solid black ;
+    
+    
+}
+
+.right-content{
+    float: right;
+    width: 90%;
+    height: 1920px;
+    background-color: #E8FFC2;
+}
+
+.store{
+    float: left;
+    width: 560px;
+    height: 460px;
+    margin-left: 30px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 30px;
+}
+
+.storeText{
+    text-align: justify;
+    margin-left: 620px;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.storeTextEcho{
+    text-align: center;
+    margin-left: 620px;
+    margin-top: 3px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.ro{
+    float: right;
+    width: 560px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: 30px;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+}
+
+.roText{
+    margin-left: 30px;
+    text-align: justify;
+    margin-top: 80px;
+    margin-right: 640px;
+    font-size: 18px;
+}
+
+.roText1{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 640px;
+    font-size: 18px;
+}
+
+.roText2{
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.gLeft{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+}
+
+.gCenter{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+}
+
+.gRight{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    margin-right: 50px;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+}
+
+
+.dataUser{
+    float: left;
+    width: 1000px;
+    margin-left: 60px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.judul{
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+td {
+    border:1px solid; padding: 6px;
+}
+
+.orderUs{
+    float: left;
+    width: 1000px;
+    margin-left: 70px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+    background-color: white;
+}
+
+
+.balikaputraTable{
+    float: left;
+    width: 360px;
+    height: 410px;
+    margin-left: 50px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.balikaputraGambar{
+    float: left;
+    width: 360px;
+    height: 410px;
+    margin-left: 60px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 40px;
+}
+
+.aqua{
+    float:right;
+    display:block;
+    width:360px;
+    clear:both;
+    height: 410px;
+    margin-left: 30px;
+    margin-right: 60px;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+    
+}
+
+.productTable{
+    float: right;
+    width: 360px;
+    height: 410px;
+    margin-left: 50px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+    background-color: white;
+}
+
+.gasTable{
+    float: left;
+    width: 360px;
+    height: 410px;
+    margin-left: 50px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+    background-color: white;
+}
+
+.gas{
+    float:left;
+    display:block;
+    width:360px;
+    clear:both;
+    height: 410px;
+    margin-left: 60px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+}
+
+
+.gas3{
+    float:right;
+    display:block;
+    width:360px;
+    clear:both;
+    height: 410px;
+    margin-left: 30px;
+    margin-right: 60px;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.dataInvoice{
+    float: left;
+    width: 1300px;
+    margin-left: 60px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.printInvoice{
+    float: left;
+    width: 700px;
+    height: 250px;
+    margin-left: 200px;
+    margin-right: auto;
+    border: 2px solid #333;
+    box-shadow:  0px 1px 12px 1px   #444;
+    margin-top: 50px;
+    background-color: white;
+}
+
+
+input{
+   padding: 4px;
+ 
+}
+
+footer{
+    width: 100%;
+    float:left;
+    display:block;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(27, 40, 214); 
+    
+}
